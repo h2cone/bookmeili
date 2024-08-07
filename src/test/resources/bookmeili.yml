@@ -1,0 +1,14 @@
+search-url: http://localhost:7700
+search-api-key: your_api_key
+search-idx-path: /path/to/books.json
+
+minio-endpoint: http://localhost:9000
+minio-access-key: your_access_key
+minio-secret-key: your_secret_key
+minio-bucket: bookmeili
+
+pool:
+  core-size: 8
+  max-size: 10
+  keep-alive: 0
+  queue-capacity: -1
